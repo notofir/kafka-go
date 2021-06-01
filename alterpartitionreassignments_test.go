@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	ktesting "github.com/segmentio/kafka-go/testing"
+	ktesting "github.com/notofir/kafka-go/testing"
 )
 
 func TestClientAlterPartitionReassignments(t *testing.T) {

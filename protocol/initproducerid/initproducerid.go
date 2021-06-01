@@ -1,6 +1,6 @@
 package initproducerid
 
-import "github.com/segmentio/kafka-go/protocol"
+import "github.com/notofir/kafka-go/protocol"
 
 func init() {
 	protocol.Register(&Request{}, &Response{})

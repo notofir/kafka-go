@@ -3,10 +3,10 @@ package compress
 import (
 	"io"
 
-	"github.com/segmentio/kafka-go/compress/gzip"
-	"github.com/segmentio/kafka-go/compress/lz4"
-	"github.com/segmentio/kafka-go/compress/snappy"
-	"github.com/segmentio/kafka-go/compress/zstd"
+	"github.com/notofir/kafka-go/compress/gzip"
+	"github.com/notofir/kafka-go/compress/lz4"
+	"github.com/notofir/kafka-go/compress/snappy"
+	"github.com/notofir/kafka-go/compress/zstd"
 )
 
 // Compression represents the the compression applied to a record set.
